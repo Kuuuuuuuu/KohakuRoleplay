@@ -1,0 +1,39 @@
+---
+banned-commands:
+- tp
+- warp
+- tpa
+- spawn
+- hub
+- kill
+- suicide
+
+antiterruptmessage: "§bZelda §f>> Interrupting is not allowed here!"
+
+disabled-worlds:
+ - "sumo"
+
+groups:
+  Guest:
+    chat: ' {suffix} §f| &f[§aMember§f] &a {display_name} &7> &f{msg}'
+    nametag: '&f[§aMember§f] &f{display_name}'
+    worlds: []
+  Admin:
+    chat: ' {suffix} §f| &f[§cAdmin§f] &6 {display_name} &d>>&b {msg}'
+    nametag: '&f[§cAdmin§f] &6{display_name}'
+    worlds: []
+  Owner:
+    chat: ' {suffix}  §f| &f[§6Owner§f] &b{display_name} &6>§c>§b {msg}'
+    nametag: '&f[§6Owner§f] &b{display_name}'
+    worlds: []
+  VIP:
+    nametag: '§f[§6VIP§f] §e{display_name}'
+    chat: ' {suffix} §f| §f[§6VIP§f] §e{display_name} §6>§e> §e{msg}'
+    worlds: []
+  Superv:
+    nametag: '§f[§6VIP§a+§f] §6{display_name}'
+    chat: ' {suffix} §f| §f[§6VIP§a+§f] §6{display_name} §b>§6> §b{msg}'
+    worlds: []
+
+...
+

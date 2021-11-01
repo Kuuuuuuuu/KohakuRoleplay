@@ -1,0 +1,31 @@
+---
+BroadcastBanMessage: |-
+  §f––––––––––––––––––––––––
+  §ePlayer §f: §c{player}
+  §eHas banned: §c{day}§eD §f| §c{hour}§eH §f| §c{minute}§eM
+  §eReason: §c{reason}
+  §f––––––––––––––––––––––––§f
+KickBanMessage: |-
+  §bGuardian
+  §cYou Are Banned
+  §6Reason : §f{reason}
+  §6Unban At §f: §e{day} D §f| §e{hour} H §f| §e{minute} M
+LoginBanMessage: |-
+  §bGuardian
+  §cYou Are Banned
+  §6Reason : §f{reason}
+  §6Unban At §f: §e{day} D §f| §e{hour} H §f| §e{minute} M
+BanMyself: §cYou can't ban yourself
+BanModeOn: §aBan mode on
+BanModeOff: §cBan mode off
+NoBanPlayers: §aNo ban players
+UnBanPlayer: §b{player} §ahas been unban
+AutoUnBanPlayer: §a{player} Has Auto Unban Already!
+BanListTitle: §bZelda §eBanSystem
+BanListContent: §c§lChoose player
+PlayerListTitle: §bZelda §eBanSystem
+PlayerListContent: §c§lChoose Player
+InfoUIContent: "§bInformation: \nDay: §a{day} \n§bHour: §a{hour} \n§bM     >
+  \n§bSecond: §a{second} \n§bReason: §a{reason}"
+InfoUIUnBanButton: §aUnban
+...
